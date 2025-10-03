@@ -57,7 +57,7 @@ const sampleProjects = [
     category: 'fullstack',
     technologies: ['React', 'Nodejs', 'OCR','API'],
     githubUrl: 'https://github.com/bsonatunde/Livescorewebsite',
-    liveUrl: 'https://moniconverter-frontend.vercel.app/',
+    liveUrl: 'https://moniconverter.vercel.app//',
     featured: true
   }
 ];
