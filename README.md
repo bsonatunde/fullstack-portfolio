@@ -226,9 +226,6 @@ This portfolio can be deployed to various platforms:
 - Safari (latest)
 - Edge (latest)
 
-## License
-
-This project is open source and available under the MIT License.
 
 ## Contributing
 
@@ -248,33 +245,8 @@ The contact form uses EmailJS to send emails directly to your inbox. To set it u
 2. Add a new service (Gmail, Outlook, Yahoo, etc.)
 3. Connect your email account and verify
 
-### 3. Create Email Template
-1. Go to "Email Templates"
-2. Create a new template with these variables:
-   - `{{from_name}}` - Sender's name
-   - `{{from_email}}` - Sender's email
-   - `{{subject}}` - Email subject
-   - `{{message}}` - Email message
-   - `{{to_email}}` - Your email (onatunde.samuel@gmail.com)
 
-Example template:
-```
-Subject: {{subject}}
-
-Hi Bolaji,
-
-You have received a new message from your portfolio website:
-
-From: {{from_name}} ({{from_email}})
-
-Message:
-{{message}}
-
-Best regards,
-Portfolio Contact Form
-```
-
-### 4. Configure Your App
+### 3. Configure Your App
 1. Open `src/config/emailjs.js`
 2. Replace the placeholder values with your actual EmailJS credentials:
    - `serviceId`: Your EmailJS service ID

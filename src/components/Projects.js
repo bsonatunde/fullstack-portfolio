@@ -24,7 +24,7 @@ const sampleProjects = [
     category: 'mobile',
     technologies: ['React Native', 'Firebase', 'Redux'],
     githubUrl: 'https://github.com/bsonatunde',
-    liveUrl: 'https://flappybirdgame-website-lr9s3gec0-bsonatundes-projects.vercel.app/',
+    liveUrl: 'https://birdfeathergame.vercel.app/',
     featured: false
   },
   {
@@ -35,7 +35,7 @@ const sampleProjects = [
     category: 'frontend',
     technologies: ['React', 'Taiwind', 'Framer Motion'],
     githubUrl: 'https://github.com/bsonatunde/bsonatunde',
-    liveUrl: 'https://bsonat.onrender.com/',
+    liveUrl: 'https://bsonatunde.vercel.app/',
     featured: false
   },
   {
