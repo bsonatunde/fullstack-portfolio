@@ -1,68 +1,74 @@
 .App {
-  text-align: center;
+  text-align: left;
+  min-height: 100vh;
+  background: transparent;
 }
 
 /* Global Styles */
 .container {
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 .section {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
   margin-bottom: 1rem;
-  color: #1a1a1a;
+  color: #0f172a;
+  letter-spacing: -0.03em;
 }
 
 .section-subtitle {
-  font-size: 1.1rem;
-  color: #666;
-  margin-bottom: 3rem;
-  max-width: 600px;
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 2.5rem;
+  max-width: 680px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.8;
 }
 
 /* Button Styles */
 .btn {
-  display: inline-block;
-  padding: 12px 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 0.95rem 1.8rem;
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 500;
+  border-radius: 999px;
+  font-size: 0.98rem;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
   text-align: center;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #0f766e;
   color: white;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.16);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0f766e;
+  border: 1px solid rgba(15, 23, 42, 0.12);
 }
 
 .btn-secondary:hover {
-  background: #667eea;
-  color: white;
-  transform: translateY(-2px);
+  background: rgba(15, 23, 42, 0.06);
 }
 
 /* Grid Layouts */
@@ -86,15 +92,15 @@
 /* Card Styles */
 .card {
   background: white;
-  border-radius: 10px;
+  border-radius: 24px;
   padding: 2rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.12);
 }
 
 /* Animations */
@@ -125,20 +131,24 @@
 /* Responsive */
 @media (max-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: 70px 0;
   }
-  
-  .section-title {
-    font-size: 2rem;
-  }
-  
   .container {
-    padding: 0 15px;
+    padding: 0 18px;
   }
-  
+  .section-subtitle {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
   .grid-2,
   .grid-3,
   .grid-4 {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 60px 0;
   }
 }
