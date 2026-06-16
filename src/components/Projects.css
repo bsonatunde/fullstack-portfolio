@@ -55,8 +55,8 @@
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #0f766e;
+  border-color: #0f766e;
   color: white;
   transform: translateY(-1px);
 }
@@ -95,7 +95,7 @@
 }
 
 .project-card.featured {
-  border-color: rgba(37, 99, 235, 0.35);
+  border-color: rgba(15, 118, 110, 0.35);
 }
 
 .project-card.featured::before {
@@ -103,7 +103,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: linear-gradient(135deg, #2563eb 0%, #0d9488 100%);
+  background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%);
   color: white;
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
@@ -195,8 +195,8 @@
 }
 
 .tech-tag {
-  background: rgba(59, 130, 246, 0.12);
-  color: #2563eb;
+  background: rgba(15, 118, 110, 0.12);
+  color: #0f766e;
   padding: 0.45rem 0.9rem;
   border-radius: 999px;
   font-size: 0.85rem;

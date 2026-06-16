@@ -87,7 +87,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.35 }}
           >
             <div className="hero-photo-frame">
-              <img src="/picture.jpg" alt="Bolaji Onatunde" className="hero-photo-image" />
+              <img src={`${process.env.PUBLIC_URL}/picture.jpg`} alt="Bolaji Onatunde" className="hero-photo-image" />
             </div>
             <div className="hero-photo-caption">
               <span>Bolaji Onatunde</span>
