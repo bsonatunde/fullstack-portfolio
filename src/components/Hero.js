@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import './Hero.css';
+import picture from '../assets/picture.jpg';
 
 const Hero = () => {
   return (
@@ -87,7 +88,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.35 }}
           >
             <div className="hero-photo-frame">
-              <img src={`${process.env.PUBLIC_URL}/picture.jpg`} alt="Bolaji Onatunde" className="hero-photo-image" />
+              <img src={picture} alt="Bolaji Onatunde" className="hero-photo-image" />
             </div>
             <div className="hero-photo-caption">
               <span>Bolaji Onatunde</span>
