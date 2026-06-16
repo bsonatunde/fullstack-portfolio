@@ -43,9 +43,7 @@ const About = () => {
             <p>
               My expertise spans from frontend development with modern frameworks to backend API development, database design, and mobile app development. I believe in writing clean, maintainable code and creating user experiences that delight and engage users.
             </p>
-            <p>
-              When I'm not coding, I enjoy staying up-to-date with the latest technology trends, contributing to open-source projects, and collaborating with fellow developers to build amazing products.
-            </p>
+            <p>When I'm not coding, I enjoy staying abreast of emerging technology trends, contributing to open-source initiatives, and collaborating with fellow developers to build innovative, high-impact solutions. I am passionate about continuous learning and leveraging technology to solve real-world challenges.            </p>
 
             <div className="about-highlights">
               <h4>What I Bring</h4>
