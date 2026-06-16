@@ -121,7 +121,7 @@
 
 .add-tech-btn {
   padding: 1rem 1.4rem;
-  background: #2563eb;
+  background: linear-gradient(135deg, #0f766e 0%, #10b981 100%);
   color: white;
   border: none;
   border-radius: 16px;
@@ -131,7 +131,7 @@
 }
 
 .add-tech-btn:hover {
-  background: #1e40af;
+  background: linear-gradient(135deg, #065f46 0%, #0f766e 100%);
   transform: translateY(-2px);
 }
 
@@ -145,8 +145,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(37, 99, 235, 0.1);
-  color: #2563eb;
+  background: rgba(15, 118, 110, 0.12);
+  color: #0f766e;
   padding: 0.55rem 0.9rem;
   border-radius: 999px;
   font-size: 0.9rem;
@@ -156,7 +156,7 @@
 .remove-tech {
   background: none;
   border: none;
-  color: #2563eb;
+  color: #0f766e;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -194,8 +194,8 @@
 }
 
 .checkbox-label input[type="checkbox"]:checked + .checkmark {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #0f766e;
+  border-color: #0f766e;
 }
 
 .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
