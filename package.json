@@ -1,6 +1,7 @@
 {
   "name": "bolaji-portfolio",
   "version": "1.0.0",
+  "homepage": "https://bsonatunde.github.io/fullstack-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
